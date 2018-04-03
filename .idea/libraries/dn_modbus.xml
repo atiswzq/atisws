@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dn-modbus">
+    <CLASSES>
+      <root url="jar://D:/apache-maven-3.3.9/dn-modbus.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

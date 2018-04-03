@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="atisws:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="atis-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="atisws:war exploded" />
+    </root>
+  </artifact>
+</component>

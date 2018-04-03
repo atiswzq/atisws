@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.scala-lang:scala-library:${scala.version}">
+    <CLASSES>
+      <root url="jar://D:/apache-maven-3.3.9/repository/org/scala-lang/scala-library/${scala.version}/scala-library-${scala.version}.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/apache-maven-3.3.9/repository/org/scala-lang/scala-library/${scala.version}/scala-library-${scala.version}-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/apache-maven-3.3.9/repository/org/scala-lang/scala-library/${scala.version}/scala-library-${scala.version}-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

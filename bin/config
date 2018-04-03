@@ -1,0 +1,5 @@
+PROJECT_NAME=umusic
+s_main_class=com.umusic.Example
+s_java_options="-Xms1300m -Xmx1300m -XX:PermSize=128m -XX:-HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/tmp/dump.hprof"
+S_CONFIGURATION_HOME=/data/umapiserver1/umusic/config
+application_file=application.yml

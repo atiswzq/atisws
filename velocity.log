@@ -1,0 +1,10 @@
+2016-06-21 11:24:48,243 - ResourceManager : unable to find resource 'tag/hello.vm' in any resource loader.
+2016-06-21 11:25:48,891 - ResourceManager : unable to find resource 'tag/hello.vm' in any resource loader.
+2016-06-27 17:48:29,633 - ResourceManager : unable to find resource 'hello.vm' in any resource loader.
+2016-06-27 17:50:19,460 - ResourceManager : unable to find resource 'hello.vm' in any resource loader.
+2016-06-27 17:52:27,672 - ResourceManager : unable to find resource 'hello.vm' in any resource loader.
+2016-06-27 17:57:39,618 - ResourceManager : unable to find resource 'hello.vm' in any resource loader.
+2016-06-27 17:57:42,296 - ResourceManager : unable to find resource 'hello.vm' in any resource loader.
+2016-08-10 11:30:02,303 - ResourceManager : unable to find resource 'song/song_detail.vm' in any resource loader.
+2016-11-12 15:06:07,718 - ResourceManager : unable to find resource 'audio.mp3' in any resource loader.
+2016-11-12 15:08:03,076 - ResourceManager : unable to find resource 'audio.mp3' in any resource loader.

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="commons-pool2-2.0">
+    <CLASSES>
+      <root url="jar://D:/Maven/local/commons-pool/commons-pool/1.6/commons-pool-1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

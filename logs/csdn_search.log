@@ -1,0 +1,25 @@
+[2018-02-24 13:49:44,022][INFO ][modules.persist.mysql    ] 初始化连接池:{port=3308, database=atisws, characterEncoding=UTF-8, host=120.26.205.103, disable=false, username=root, password=hz52msm!.., useUnicode=true}
+[2018-02-24 13:49:47,571][INFO ][com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+[2018-02-24 13:49:47,607][INFO ][bootstrap.loader.impl    ] scan service package => com.atis.service
+[2018-02-24 13:49:47,614][INFO ][bootstrap.loader.impl    ] load service in ServiceFramwork.serviceModules =>0
+[2018-02-24 13:49:47,614][INFO ][bootstrap.loader.impl    ] total load service  =>11
+[2018-02-24 13:49:48,954][INFO ][bootstrap.loader.impl    ] controller load :    com.atis.controller.http.IntroController
+[2018-02-24 13:49:48,955][INFO ][bootstrap.loader.impl    ] controller load :    com.atis.controller.http.ModbusController
+[2018-02-24 13:49:48,956][INFO ][bootstrap.loader.impl    ] controller load :    com.atis.controller.http.ModuleController
+[2018-02-24 13:49:48,956][INFO ][bootstrap.loader.impl    ] controller load :    com.atis.controller.http.PermissionController
+[2018-02-24 13:49:48,956][INFO ][bootstrap.loader.impl    ] controller load :    com.atis.controller.http.PumpController
+[2018-02-24 13:49:48,957][INFO ][bootstrap.loader.impl    ] controller load :    com.atis.controller.http.RainController
+[2018-02-24 13:49:48,957][INFO ][bootstrap.loader.impl    ] controller load :    com.atis.controller.http.RiverVideoController
+[2018-02-24 13:49:48,958][INFO ][bootstrap.loader.impl    ] controller load :    com.atis.controller.http.StrobeController
+[2018-02-24 13:49:48,958][INFO ][bootstrap.loader.impl    ] controller load :    com.atis.controller.http.StrobeInspeController
+[2018-02-24 13:49:48,959][INFO ][bootstrap.loader.impl    ] controller load :    com.atis.controller.http.UserController
+[2018-02-24 13:49:48,959][INFO ][bootstrap.loader.impl    ] controller load :    com.atis.controller.http.WaterLineController
+[2018-02-24 13:49:48,959][INFO ][bootstrap.loader.impl    ] controller load :    com.atis.controller.http.web.WebModuleController
+[2018-02-24 13:49:48,960][INFO ][bootstrap.loader.impl    ] controller load :    com.atis.controller.http.web.WebPumpController
+[2018-02-24 13:49:48,960][INFO ][bootstrap.loader.impl    ] controller load :    com.atis.controller.http.web.WebRiverVideoController
+[2018-02-24 13:49:48,960][INFO ][bootstrap.loader.impl    ] controller load :    com.atis.controller.http.web.WebStatisticController
+[2018-02-24 13:49:48,961][INFO ][bootstrap.loader.impl    ] controller load :    com.atis.controller.http.web.WebStrobeController
+[2018-02-24 13:49:48,961][INFO ][bootstrap.loader.impl    ] controller load :    com.atis.controller.http.web.WebWaterLevelController
+[2018-02-24 13:49:48,961][INFO ][bootstrap.loader.impl    ] controller load :    com.atis.controller.http.web.WebWaterLineController
+[2018-02-24 13:49:49,542][INFO ][org.eclipse.jetty.util.log] jetty-7.2.2.v20101205
+[2018-02-24 13:49:49,605][INFO ][org.eclipse.jetty.util.log] Started SelectChannelConnector@0.0.0.0:9002
