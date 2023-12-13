@@ -1,6 +1,6 @@
 package com.atis.util;
 
-import com.dn9x.modbus.util.CommonUtil;
+
 import net.wimpi.modbus.net.TCPMasterConnection;
 import org.apache.log4j.Logger;
 import org.w3c.dom.Document;
