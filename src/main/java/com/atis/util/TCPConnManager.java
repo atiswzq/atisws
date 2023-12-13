@@ -19,7 +19,7 @@ public class TCPConnManager {
     private String poolName = null;
     private static int clients = 0;
     private Hashtable<String,TcpConnectionPool> pools = new Hashtable<String,TcpConnectionPool>();
-    private TCPConnManager() {
+   /* private TCPConnManager() {
         createPools();
     }
     private final Logger log = Logger.getLogger(TCPConnManager.class);
@@ -47,7 +47,7 @@ public class TCPConnManager {
         }catch(Exception e){
 //            log.info("新建连接池" +  poolName + "失败，请检查PLC地址是否正确");
         }
-    }
+    }*/
 
     public synchronized static TCPConnManager getInstance() {
         if(tcm == null) {

@@ -1,3 +1,4 @@
+/*
 
 package com.atis.util;
 
@@ -22,9 +23,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+*/
 /**
  * Created by Administrator on 2016/11/14.
- */
+ *//*
+
 
 public class UnityModbus implements UnityBridge {
     private static Map<Integer, ModbusController> controllers = new HashMap<Integer, ModbusController>();
@@ -40,7 +43,6 @@ public class UnityModbus implements UnityBridge {
 
         try {
             DocumentBuilder db = dbf.newDocumentBuilder();
-
             List<File> files = CommonUtil.getFiles(path);
 
             System.out.println(">>>>>>>>>>>>>>>file count:" + files.size());
@@ -101,11 +103,11 @@ public class UnityModbus implements UnityBridge {
                                 re.setAddress(value);
                             } else if (name.equals("defaultValue")) {
                                 re.setValue(value);
-                            } else if(name.equals("type")){
+                            } else if (name.equals("type")) {
                                 re.setType(value);
-                            } else if(name.equals("subStrobeId")){
+                            } else if (name.equals("subStrobeId")) {
                                 re.setSubStrobeId(Integer.parseInt(value));
-                            } else if(name.equals("strobeId")){
+                            } else if (name.equals("strobeId")) {
                                 re.setStrobeId(Integer.parseInt(value));
                             }
                         }
@@ -192,11 +194,11 @@ public class UnityModbus implements UnityBridge {
                                     re.setAddress(value);
                                 } else if (name.equals("defaultValue")) {
                                     re.setValue(value);
-                                } else if(name.equals("type")){
+                                } else if (name.equals("type")) {
                                     re.setType(value);
-                                } else if(name.equals("subStrobeId")){
+                                } else if (name.equals("subStrobeId")) {
                                     re.setSubStrobeId(Integer.parseInt(value));
-                                } else if(name.equals("strobeId")){
+                                } else if (name.equals("strobeId")) {
                                     re.setStrobeId(Integer.parseInt(value));
                                 }
                             }
@@ -244,7 +246,7 @@ public class UnityModbus implements UnityBridge {
     }
 
     public int getRegisterState(int controllerId, int registerAddress) {
-        int value =Integer.parseInt( controllers.get(controllerId).getCtorEntity()
+        int value = Integer.parseInt(controllers.get(controllerId).getCtorEntity()
                 .getRegisters().get(registerAddress).getValue());
 
         return value;
@@ -390,5 +392,6 @@ public class UnityModbus implements UnityBridge {
 
 
 }
+
 
 */
